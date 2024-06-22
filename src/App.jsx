@@ -1,5 +1,5 @@
 import { Hero, Portfolio, Experience, Contact, Nav } from './components';
-
+import React from 'react';
 import './App.css'
 
 function App() {
