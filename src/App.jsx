@@ -1,18 +1,27 @@
 import { Hero, luffyhatCanvas, Portfolio, Experience, Hobbies, Contact, Nav } from './components';
 import React from 'react';
-import './App.css'
+import { Element } from 'react-scroll';
+import './index.css'
 
-function App() {
+const App = () => {
 
   return (
     <div>
       <Nav />
       <Hero />
       <luffyhatCanvas />
-      <Portfolio />
-      <Experience />
-      <Hobbies />
-      <Contact />
+      <Element name="Portfolio">
+        <Portfolio />
+      </Element>
+      <Element name="Experience">
+        <Experience />
+      </Element>
+      <Element name="Hobbies">
+        <Hobbies />
+      </Element>
+      <Element name="Contact">
+        <Contact />
+      </Element>
     </div>
   );
 };
