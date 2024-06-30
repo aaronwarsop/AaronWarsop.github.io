@@ -10,13 +10,9 @@ const Nav = () => {
     return (
         <nav className={"w-full flex items-center py-5 fixed top-0 z-10"}>
             <div className={"w-full flex justify-between items-center max-w-7xl mx-auto"}>
-                <Link to="/" className="flex items-center gap-2"
-                onClick={() => {
-                    setActive("");
-                    window.scrollTo(0, 0);
-                }}>
-                <img src={logo} alt="logo" className="w-12 h-12 object-contain"/>
-                <p className="text-white text-[16px] font-bold cursor-pointer">Aaron Joseph Warsop <span className="block text-[15px]">| Entry Level Developer</span></p>
+                <Link to="Hero" activeClass="active" spy={true} smooth={true} duration={500} className="flex items-center gap-2">
+                    <img src={logo} alt="logo" className="w-12 h-12 object-contain"/>
+                    <p className="text-white text-[16px] font-bold cursor-pointer">Aaron Joseph Warsop <span className="block text-[15px]">| Entry Level Developer</span></p>
                 </Link>
 
                 <ul className="hidden sm:flex flex-row gap-10 text-white">
