@@ -1,4 +1,4 @@
-import { Hero, luffyhatCanvas, Portfolio, Experience, Hobbies, Contact, Nav } from './components';
+import { Hero, Portfolio, Experience, Hobbies, Contact, Nav } from './components';
 import React from 'react';
 import { Element } from 'react-scroll';
 import './index.css'
@@ -8,8 +8,9 @@ const App = () => {
   return (
     <div>
       <Nav />
-      <Hero />
-      <luffyhatCanvas />
+      <Element name="Hero">
+        <Hero />
+      </Element>
       <Element name="Portfolio">
         <Portfolio />
       </Element>

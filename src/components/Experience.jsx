@@ -1,10 +1,12 @@
 const Experience = () => {
     return (
-        <section id="Experience" className="w-screen h-screen flex justify-center items-center">
-            <div className="text-center">
-                <h1>Experience</h1>
-                <p>Here are some of the positions I have worked so far in my journey!</p>
+        <section className="flex flex-col justify-center items-center min-h-screen w-screen mx-auto">
+            <div className="text-center mb-8 text-heading-col">
+                <h1 className="font-bold text-5xl">Experience</h1>
+                <p className="mt-4 text-lg"></p>
             </div>
+
+            
         </section>
     );
 };

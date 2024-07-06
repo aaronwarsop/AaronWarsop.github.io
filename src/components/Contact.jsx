@@ -3,7 +3,7 @@ const Contact = () => {
     //const [message, setMessage] = useState('');
 
     return (
-        <section id="Contact" className="w-screen h-screen flex justify-center items-center">
+        <section className="w-screen h-screen flex justify-center items-center">
             <div className="text-center">
                 <h1>Feel free to reach out</h1>
                 <br></br>

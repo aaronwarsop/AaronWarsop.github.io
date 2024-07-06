@@ -3,15 +3,16 @@ import {motion} from 'framer-motion';
 
 const Hero = () => {
     return (
-        <section id="Hero" className="flex items-center justify-center h-screen w-screen mx-auto z-0">
+        <section className="flex items-center justify-center h-screen w-screen mx-auto">
             <div className="text-center">
-                <h1 className="text-white  align-center">Hi, I'm <span className="text-blue-500">Aaron</span></h1>
-                <p className="text-gray-400 text-[26px]"></p>
+                <h1 className="text-heading-col  align-center">Hi, I'm <span className="text-custom-blue">Aaron</span></h1>
+
                 <br></br>
-                <p className="text-gray-400 text-[20px]">An entry-level software engineer based in Nottingham, UK. <br></br>Interested in being a part of an innovative company, <br></br> <span className="text-blue-500">striving towards a brighter future via the programs we create.</span></p>
+
+                <p className="text-text-col text-[20px] mw-[600px]">An entry-level software engineer based in Nottingham, UK. Interested in being a part of an innovative company, <span className="text-custom-blue">striving towards a brighter future via the programs we create.</span></p>
             </div>
 
-
+            
         </section>
     );
 }
