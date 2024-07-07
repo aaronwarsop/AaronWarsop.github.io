@@ -10,25 +10,24 @@ const Nav = () => {
     return (
         <nav className={"w-full flex items-center py-5 fixed top-0 z-10 text-heading-col font-bold"}>
             <div className={"w-full flex justify-between items-center max-w-7xl mx-auto"}>
-                <Link to="Hero" activeClass="active" spy={true} smooth={true} duration={500} className="flex items-center gap-2">
+                <Link to="Hero" activeClass="active" spy={true} smooth={true} duration={500} className="flex items-center gap-2 cursor-pointer hover:text-custom-blue">
                     <img src={logo} alt="logo" className="w-12 h-12 object-contain"/>
-                    <p className="text-[14px] font-bold cursor-pointer">Aaron Joseph Warsop <span className="block text-[12px]">| Entry Level Developer</span></p>
+                    <p className="text-[14px] font-bold">Aaron Joseph Warsop <span className="block text-[12px]">| Entry Level Developer</span></p>
                 </Link>
-
+                {/*offset={-100}*/}
                 <ul className="hidden sm:flex flex-row gap-10 text-[14px]">
-                    <li className="cursor-pointer"><Link to="Portfolio" activeClass="active" spy={true} smooth={true} duration={500}>Portfolio</Link></li>
-                    <li className="cursor-pointer"><Link to="Experience" activeClass="active" spy={true} smooth={true} duration={500}>Experience</Link></li>
-                    <li className="cursor-pointer"><Link to="Hobbies" activeClass="active" spy={true} smooth={true} duration={500}>Hobbies</Link></li>
-                    <li className="cursor-pointer"><Link to="Contact" activeClass="active" spy={true} smooth={true} duration={500}>Contact</Link></li>
+                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Portfolio" activeClass="active" spy={true} smooth={true} duration={500}>Portfolio</Link></li>
+                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Hobbies" activeClass="active" spy={true} smooth={true} duration={500}>Hobbies</Link></li>
+                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Contact" activeClass="active" spy={true} smooth={true} duration={500}>Contact</Link></li>
                 </ul>
 
                 <ul className="sm:flex hidden gap-5 mx-5">
                     <li>
-                        <a href="https://github.com/aaronwarsop" target="_blank" rel="noopener noreferrer"><img className="h-5 w-8 text-white hover:text-hovercol" src={github} alt="github-logo"></img></a>
+                        <a href="https://github.com/aaronwarsop" target="_blank" rel="noopener noreferrer"><img className="h-5 w-8" src={github} alt="github-logo"></img></a>
                     </li>
 
                     <li>
-                        <a href="https://www.linkedin.com/in/aaron-warsop-9ba251240/" target="_blank" rel="noopener noreferrer"><img className="h-5 w-8 hover:text-hovercol" src={linkedin} alt="linkedin-logo"></img></a>
+                        <a href="https://www.linkedin.com/in/aaron-warsop-9ba251240/" target="_blank" rel="noopener noreferrer"><img className="h-5 w-8" src={linkedin} alt="linkedin-logo"></img></a>
                     </li>
                 </ul>
 

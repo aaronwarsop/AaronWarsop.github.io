@@ -3,13 +3,13 @@ import {motion} from 'framer-motion';
 
 const Hero = () => {
     return (
-        <section className="flex items-center justify-center h-screen w-screen mx-auto">
-            <div className="text-center">
-                <h1 className="text-heading-col  align-center">Hi, I'm <span className="text-custom-blue">Aaron</span></h1>
+        <section className="flex items-center justify-center h-screen w-full mx-auto">
+            <div className="text-center w-full md:w-1/2 mx-auto">
+                <h1 className="text-heading-col align-center">Hi, I'm <span className="text-custom-blue">Aaron</span></h1>
 
                 <br></br>
 
-                <p className="text-text-col text-[20px] mw-[600px]">An entry-level software engineer based in Nottingham, UK. Interested in being a part of an innovative company, <span className="text-custom-blue">striving towards a brighter future via the programs we create.</span></p>
+                <p className="text-text-col text-[20px]">An entry-level software engineer based in Nottingham, UK. Interested in being a part of an innovative company, <span className="text-custom-blue">striving towards a brighter future via the programs we create.</span></p>
             </div>
 
             

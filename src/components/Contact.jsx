@@ -9,6 +9,7 @@ const Contact = () => {
                 <br></br>
                 <br></br>
                 <form className="flex flex-col gap-5">
+                    <input type="text" placeholder="Your Name" alt="your-name"/>
                     <input type="email" placeholder="Your Email" alt="your-email"/>
                     <textarea placeholder="Message" alt="email-message"/>
                     <button type="submit">Send message</button>
