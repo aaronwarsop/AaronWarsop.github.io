@@ -19,7 +19,7 @@ const Artorias = () => {
 const ArtoriasCanvas = () => {
 
     return (
-        <div style={{ width: '100%', height: '400px', flexShrink: 0}}>
+        <div style={{ width: '100%', height: '450px', flexShrink: 0}}>
             <Canvas
                 frameloop="demand"
                 shadows

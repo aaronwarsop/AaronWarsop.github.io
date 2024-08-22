@@ -3,34 +3,37 @@ import ArtoriasCanvas from '../components/canvas/Artorias';
 
 const Hobbies = () => {
     return (
-        <section className="flex flex-col justify-center items-center h-screen w-5/6 mx-auto">
-            <div className="text-center">
-                <h1>More about me</h1>
-                <p>Hobbies</p>
+        <section className="w-5/6 mx-auto">
+            <div className="text-center mb-8 text-heading-col">
+                <h1 className="font-bold text-5xl">More about me</h1>
+                <p className="mt-4 text-lg">Hobbies</p>
             </div>
 
-            <article className="flex">
-                <div className="flex-shrink-0 w-full">
+            <div className="w-full">
+                <article className="flex flex-row w-2/6">
                     <ArtoriasCanvas />
-                    <h3>Video Games</h3>
-                    <p>I like to play games</p>
-                </div>
-            </article>
+                    <div className="flex flex-col items-center justify-center w-full h-full">
+                        <h3 className="mb-4 w-[400px] text-center text-heading-col font-semibold">Video Games</h3>
+                        <p className="w-[400px] text-center text-text-col">I like to play games</p>
+                    </div>
+                </article>
 
-            <article>
-                <div className="">
-                        
-                </div>
-            </article>
+                <article className="flex flex-row w-2/6">
+                    {/*Canvas here*/}
+                    <div className="flex flex-col items-center justify-center w-full h-full">
+                        <h3 className="mb-4 w-[400px] text-center text-heading-col font-semibold">Video Games</h3>
+                        <p className="w-[400px] text-center text-text-col">I like to play games</p>
+                    </div>
+                </article>
 
-            <article>
-                <div className="">
-                        
-                </div>
-            </article>
-
-
-            
+                <article className="flex flex-row w-2/6">
+                    {/*Canvas here*/}
+                    <div className="flex flex-col items-center justify-center w-full h-full">
+                        <h3 className="mb-4 w-[400px] text-center text-heading-col font-semibold">Video Games</h3>
+                        <p className="w-[400px] text-center text-text-col">I like to play games</p>
+                    </div>
+                </article>
+            </div>
         </section>
     );
 }

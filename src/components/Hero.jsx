@@ -6,13 +6,17 @@ const Hero = () => {
         <section className="flex items-center justify-center h-screen w-full mx-auto">
             <div className="text-center w-full md:w-1/2 mx-auto">
                 <h1 className="text-heading-col align-center">Hi, I'm <span className="text-custom-blue">Aaron</span></h1>
-
                 <br></br>
+                <p className="text-text-col text-[20px]">An entry-level software engineer currently based in Nottingham, UK. Interested in <span className="text-custom-blue">Full-stack development, AI, Machine Learning, and Robotics. </span></p>
+                
+                
+                <div className="mt-12">
+                    {/* Down arrow here to take to next section. add motion/effect to it on hover. */}
+                    
+                </div>
 
-                <p className="text-text-col text-[20px]">An entry-level software engineer based in Nottingham, UK. Interested in being a part of an innovative company, <span className="text-custom-blue">striving towards a brighter future via the programs we create.</span></p>
             </div>
 
-            
         </section>
     );
 }

@@ -14,10 +14,10 @@ const Nav = () => {
                     <img src={logo} alt="logo" className="w-12 h-12 object-contain"/>
                     <p className="text-[14px] font-bold">Aaron Joseph Warsop <span className="block text-[12px]">| Entry Level Developer</span></p>
                 </Link>
-                {/*offset={-100}*/}
+                
                 <ul className="hidden sm:flex flex-row gap-10 text-[14px]">
-                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Portfolio" activeClass="active" spy={true} smooth={true} duration={500}>Portfolio</Link></li>
-                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Hobbies" activeClass="active" spy={true} smooth={true} duration={500}>Hobbies</Link></li>
+                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Portfolio" activeClass="active" spy={true} smooth={true} duration={500} offset={-100}>Portfolio</Link></li>
+                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Hobbies" activeClass="active" spy={true} smooth={true} duration={500} offset={-100}>Hobbies</Link></li>
                     <li className="cursor-pointer hover:text-custom-blue"><Link to="Contact" activeClass="active" spy={true} smooth={true} duration={500}>Contact</Link></li>
                 </ul>
 

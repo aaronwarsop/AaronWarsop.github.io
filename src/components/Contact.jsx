@@ -3,19 +3,19 @@ const Contact = () => {
     //const [message, setMessage] = useState('');
 
     return (
-        <section className="w-screen h-screen flex justify-center items-center">
-            <div className="text-center">
-                <h1>Feel free to reach out</h1>
-                <br></br>
-                <br></br>
-                <form className="flex flex-col gap-5">
-                    <input type="text" placeholder="Your Name" alt="your-name"/>
-                    <input type="email" placeholder="Your Email" alt="your-email"/>
-                    <textarea placeholder="Message" alt="email-message"/>
-                    <button type="submit">Send message</button>
-                </form>
-
+        <section className="flex flex-col items-center justify-center h-screen w-5/6 mx-auto">
+            <div className="text-center mb-12 text-heading-col">
+                <h1 className="font-bold text-5xl">Feel free to reach out</h1>
             </div>
+                
+            <form className="flex flex-col gap-5">
+                <input type="text" placeholder="Your Name" alt="your-name" className="text-text-col bg-transparent"/>
+                <input type="email" placeholder="Your Email" alt="your-email" className="text-text-col bg-transparent"/>
+                <textarea placeholder="Message" alt="email-message" className="text-text-col bg-transparent"/>
+                <button type="submit" className="text-text-col bg-transparent">Send message</button>
+            </form>
+
+            
         </section>
     );
 };

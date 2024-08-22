@@ -18,6 +18,14 @@
   overflow-x: hidden;
 }
 
+.custom-dots li button:before {
+  color: #4986FF;
+}
+
+.custom-dots li.slick-active button:before {
+  color: #CCD6F4;
+}
+
 nav {
   background: #0a192f
 }
