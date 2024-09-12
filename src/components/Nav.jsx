@@ -17,7 +17,7 @@ const Nav = () => {
                 
                 <ul className="hidden sm:flex flex-row gap-10 text-[14px]">
                     <li className="cursor-pointer hover:text-custom-blue"><Link to="Portfolio" activeClass="active" spy={true} smooth={true} duration={500} offset={-100}>Portfolio</Link></li>
-                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Hobbies" activeClass="active" spy={true} smooth={true} duration={500} offset={-100}>Hobbies</Link></li>
+                    <li className="cursor-pointer hover:text-custom-blue"><Link to="Hobbies" activeClass="active" spy={true} smooth={true} duration={500} offset={-100}>About</Link></li>
                     <li className="cursor-pointer hover:text-custom-blue"><Link to="Contact" activeClass="active" spy={true} smooth={true} duration={500}>Contact</Link></li>
                 </ul>
 

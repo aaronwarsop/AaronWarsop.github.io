@@ -91,28 +91,11 @@ const Portfolio = () => {
 
             <Slideshow />
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-12">
-
-                <a href="https://github.com/aaronwarsop/TravelBuddyFinder" target="_blank" className="block">
-                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300">
-                        <h2 className="font-bold text-heading-col text-lg">Travel Buddy Finder</h2>
-                        <p className="mt-2 text-text-col text-sm">Web app created to make travelling a little less lonely for some. Form group trips and express interest in others to travel the world together! <span className="text-custom-blue">CRUD</span> operations to support users finding, creating, updating, and deleting trips, <span className="text-custom-blue">API</span> integration for weather and ID generation.</p>
-                        
-                        <ul className="flex flex-wrap mt-4 gap-2 text-[12px] text-custom-blue">
-                            <li className="">JavaScript</li>
-                            <li className="">Node.js</li>
-                            <li className="">Express.js</li>
-                            <li className="">React.js</li>
-                            <li className="">MongoDB</li>
-                            <li className="">API</li>
-                        </ul>
-                    </article>
-                </a>
-
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 ">
                 <a href="https://github.com/aaronwarsop/BudFridges" target="_blank" className="block">
-                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300">
+                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300 h-full flex flex-col">
                         <h2 className="font-bold text-heading-col text-lg">BudFridges</h2>
-                        <p className="mt-2 text-text-col text-sm">Led a team of 5 as <span className="text-custom-blue">SCRUM Master</span> to create a RESTful, service-oriented architecture-based web app for a smart fridge in a restaurant. Involved permission access, <span className="text-custom-blue">CRUD</span> operations regarding stock quantites, temporary delivery driver access code generation, and more.</p>
+                        <p className="mt-2 text-text-col text-sm flex-grow">Led a team of 5 as <span className="text-custom-blue">SCRUM Master</span> to create a RESTful, service-oriented architecture-based web app for a smart fridge in a restaurant. Involved permission access, <span className="text-custom-blue">CRUD</span> operations regarding stock quantites, temporary delivery driver access code generation, and more.</p>
                         
                         <ul className="flex flex-wrap mt-4 gap-2 text-[12px] text-custom-blue">
                             <li className="">JavaScript</li>
@@ -126,9 +109,9 @@ const Portfolio = () => {
                 </a>
 
                 <a href="https://www.kaggle.com/code/aaronwarsop2/jpx-stock-exchange" target="_blank" className="block">
-                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300">
+                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300 h-full flex flex-col">
                         <h2 className="font-bold text-heading-col text-lg">JPX Stock Exchange Prediction</h2>
-                        <p className="mt-2 text-text-col text-sm">Kaggle data science competition project using historical Japanese stock data and machine learning models to calculate portfolio's sharpe ratio. Model scored within the <span className="text-custom-blue">top 6%</span> of competitors. Created visualisations for additional data comprehension and to aid the data pre-processing phase.</p>
+                        <p className="mt-2 text-text-col text-sm flex-grow">Kaggle data science competition project using historical Japanese stock data and machine learning models to calculate portfolio's sharpe ratio. Model scored within the <span className="text-custom-blue">top 6%</span> of competitors. Created visualisations for additional data comprehension and to aid the data pre-processing phase.</p>
                         
                         <ul className="flex flex-wrap mt-4 gap-2 text-[12px] text-custom-blue">
                             <li className="">Python</li>
@@ -142,9 +125,9 @@ const Portfolio = () => {
                 </a>
 
                 <a href="https://github.com/aaronwarsop/Burmese-Chatbot" target="_blank" className="block">
-                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300">
+                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300 h-full flex flex-col">
                         <h2 className="font-bold text-heading-col text-lg">Chatbot</h2>
-                        <p className="mt-2 text-text-col text-sm">Burmese chatbot created for stakeholders interested in learning the culuture of Myanmar (Burma). Incorporates a rich database and Wikipedia <span className="text-custom-blue">API</span> integration to satisfy any user queries about Myanmar. Options for text-to-speech and speech-to-text for extra user inclusivity and quality of life.</p>
+                        <p className="mt-2 text-text-col text-sm flex-grow">Burmese chatbot created for stakeholders interested in learning the culuture of Myanmar (Burma). Incorporates a rich database and Wikipedia <span className="text-custom-blue">API</span> integration to satisfy any user queries about Myanmar. Options for text-to-speech and speech-to-text for extra user inclusivity and quality of life.</p>
                         
                         <ul className="flex flex-wrap mt-4 gap-2 text-[12px] text-custom-blue">
                             <li className="">Python</li>
@@ -154,8 +137,51 @@ const Portfolio = () => {
                         </ul>
                     </article>
                 </a>
-                <br></br>
-                <br></br>
+
+                <a href="" target="_blank" className="block">
+                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300 h-full flex flex-col">
+                        <h2 className="font-bold text-heading-col text-lg">Coming Soon</h2>
+                        <p className="mt-2 text-text-col text-sm flex-grow">Description</p>
+                        
+                        <ul className="flex flex-wrap mt-4 gap-2 text-[12px] text-custom-blue">
+                            <li className="">?</li>
+                            <li className="">?</li>
+                            <li className="">?</li>
+                            <li className="">?</li>
+                        </ul>
+                    </article>
+                </a>
+                
+                <a href="" target="_blank" className="block">
+                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300 h-full flex flex-col">
+                        <h2 className="font-bold text-heading-col text-lg">Coming Soon</h2>
+                        <p className="mt-2 text-text-col text-sm flex-grow">Description</p>
+                        
+                        <ul className="flex flex-wrap mt-4 gap-2 text-[12px] text-custom-blue">
+                            <li className="">?</li>
+                            <li className="">?</li>
+                            <li className="">?</li>
+                            <li className="">?</li>
+                        </ul>
+                    </article>
+                </a>
+
+                <a href="" target="_blank" className="block">
+                    <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300 h-full flex flex-col">
+                        <h2 className="font-bold text-heading-col text-lg">Coming Soon</h2>
+                        <p className="mt-2 text-text-col text-sm flex-grow">Description</p>
+                        
+                        <ul className="flex flex-wrap mt-4 gap-2 text-[12px] text-custom-blue">
+                            <li className="">?</li>
+                            <li className="">?</li>
+                            <li className="">?</li>
+                            <li className="">?</li>
+                        </ul>
+                    </article>
+                </a>
+
+                
+
                 {/* 
                 <a href="" className="block">
                     <article className="p-4 bg-[#112240] rounded-xl transform hover:scale-105 transition-transform duration-300">
